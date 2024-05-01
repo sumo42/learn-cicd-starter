@@ -20,5 +20,5 @@ jobs:
 
 
       - name: Go Test Run Step Specific
-        run: go test ./math
+        run: go test -cover ./math
         
