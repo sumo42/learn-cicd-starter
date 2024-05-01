@@ -11,5 +11,4 @@ func TestAdd(t *testing.T) {
 }
 
 func add(a, b int) int {
-	return a + b
-}
+	return a + b}
