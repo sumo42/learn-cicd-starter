@@ -22,8 +22,7 @@ jobs:
       - name: Go Test Run Step Specific
         run: go test -cover ./math
 
-jobs:
-  tests:
+  format:
     name: Style
     runs-on: ubuntu-latest
 
